@@ -46,7 +46,7 @@ const ContactForm = () => {
     const headers = {
       Authorization: `Bearer ${SENDGRID_API_KEY}`,
       "Content-Type": "application/json",
-      origin: "*",
+      origin: "https://contact-form-redpositive.netlify.app",
       "Access-Control-Allow-Origin": "*",
     };
     try {
