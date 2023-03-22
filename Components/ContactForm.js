@@ -29,7 +29,7 @@ const ContactForm = () => {
     const data = {
       personalizations: [
         {
-          to: "akshat26042002@gmail.com",
+          to: "info@redpositive.in",
         },
       ],
       from: {
@@ -46,7 +46,6 @@ const ContactForm = () => {
     const headers = {
       Authorization: `Bearer ${SENDGRID_API_KEY}`,
       "Content-Type": "application/json",
-      origin: "https://contact-form-redpositive.netlify.app",
       "Access-Control-Allow-Origin": "*",
     };
     try {
